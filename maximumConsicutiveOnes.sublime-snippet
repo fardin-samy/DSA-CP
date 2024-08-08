@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+int mx=0,cnt=0;
+	for(int i=0;i<a.size();i++)
+	{
+		if(a[i]==1) 
+		{
+			cnt++;
+			mx=max(mx,cnt);
+		}
+		else 
+		{
+			cnt=0;
+		}
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>maximumConsecutiveOnes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

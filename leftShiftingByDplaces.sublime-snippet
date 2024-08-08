@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+int d;cin>>d;
+	//left shifting d places
+	reverse(v.begin(),v.begin()+d);
+	reverse(v.begin()+d,v.end());
+	reverse(v.begin(),v.end());
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>leftShiftingBy_D_places</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
