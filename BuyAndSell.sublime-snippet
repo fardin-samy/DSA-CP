@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+int mn=a[0],profit=0;
+	for(int i=1;i<n;i++)
+	{
+		int cost=a[i]-mn;
+		profit=max(profit,cost);
+		mn=min(mn,a[i]);
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>BuyAndSell</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
