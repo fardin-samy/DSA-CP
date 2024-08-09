@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 int left=0,right=m-1;
 	int top=0,bottom=n-1;
 	while(top<=bottom and left<=right)
@@ -32,9 +30,3 @@ int left=0,right=m-1;
 		left++;
 	
 	}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>printingSpiralMatrix</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
