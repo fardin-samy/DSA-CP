@@ -1,5 +1,5 @@
-A^-1=(A^(M-2)%M) when M is prime.
-after that same as bigmod
+//A^-1=(A^(M-2)%M) when M is prime.
+//after that same as bigmod
 
 
 
