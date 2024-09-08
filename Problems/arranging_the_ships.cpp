@@ -1,18 +1,6 @@
 //https://codeforces.com/contest/1520/problem/E
 //learned: for leveling common elements arrange all the elements toward the middle element
-#include<bits/stdc++.h>
-#define endl '\n'
-#define fs first
-#define ss second
-#define pb push_back
-#define int long long
-#define inf 1e18
-#define all(a) a.begin(),a.end()
-#define FAST ios_base::sync_with_stdio(false),cin.tie(NULL)
-using namespace std;
-void solve(){
-	
-	int n;cin>>n;
+int n;cin>>n;
 	string s;cin>>s;
 	if(n==1) {
 		cout<<0<<endl;
@@ -93,12 +81,3 @@ void solve(){
 		}
 		cout<<ans<<endl;
 	}
-}   
-int32_t main(){
-   FAST;
-    int tc;
-    tc=1;
-    cin>>tc;
-    while(tc--)
-    solve();
-}
