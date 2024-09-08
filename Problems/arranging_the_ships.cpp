@@ -81,3 +81,69 @@ int n;cin>>n;
 		}
 		cout<<ans<<endl;
 	}
+//alternative solution:
+
+ll  n;cin>>n;
+     string s;cin>>s;
+     ll  cnt=0 ,start=-1 ,end=-1 ;
+     
+     for (int i=0;i<n;i++)
+      {
+          if (s[i]=='*')
+           {
+               cnt++;
+               if (start==-1)
+                {
+                    start=i;
+                    
+                }
+                else
+                    end=i;
+           }
+      }
+      // if count of sheep is 0 or 1 then no move needed 
+      if (start==-1 ||end==-1)
+       {
+           cout<<0<<"\n";
+           return ;
+       }
+       
+       //if the sheeps are already aligned then no move needed 
+       
+       if (end-start+1==cnt)
+        {
+            cout<<0<<"\n";
+            return ;
+        }
+        
+        //*.*...*.**  1+2+2+2+2=9 
+        ll  ans=0 ,left=0;
+        for (int i=start;i<=end;i++)
+         {
+             if (s[i]=='*') left++; //just move forward 
+             else 
+             ans+=min (left,cnt-left);
+             
+         }
+        
+       cout<<ans<<"\n";
+ }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+           
+      
+ 
