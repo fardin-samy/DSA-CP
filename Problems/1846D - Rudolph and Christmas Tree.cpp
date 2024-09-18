@@ -1,5 +1,8 @@
 //https://codeforces.com/contest/1846/problem/D
-// geometry based problem
+//geometry-based problem
+//YT:https://www.youtube.com/watch?v=u46GpuuiPqI&t=340s
+//learned: if x(angle) is common between two triangles then the ratio of base and height will be the same
+// tanx=   H/B=h/b
 #include <bits/stdc++.h>
 
 using namespace std;
