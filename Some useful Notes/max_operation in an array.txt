@@ -1,0 +1,4 @@
+In an array if u choose different elements and at most x elements each element can be 
+choosed exactly once then the minimum number of operation needed 
+is : max(mx_element_of_the_array , ceil(total_sum_of_elements / x))
+// Ref problem : https://codeforces.com/contest/2022/problem/B 
